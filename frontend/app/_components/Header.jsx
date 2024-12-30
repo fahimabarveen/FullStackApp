@@ -31,7 +31,7 @@ function Header() {
 
         </div>
         <div>
-          <h2> <ShoppingBagIcon className='h-5 w-5'/> 0 </h2>
+          <h2> <ShoppingBagIcon className='h-5 w-5'/>0</h2>
            <Button className='bg-gradient-to-r from-teal-400 to-blue-500 hover:from-pink-500 hover:to-orange-500'>
             <LogInIcon/>LOGIN
            </Button>
