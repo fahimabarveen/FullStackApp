@@ -5,5 +5,7 @@ const axiosClient = axios.create({
        });
        
 const getMenuCategory = () => axiosClient.get('/Categories?populate=*');
-            
+         
+const getCategoryList=() =>axiosClient.get('/Categories?populate=*');
+
 export default{getMenuCategory };

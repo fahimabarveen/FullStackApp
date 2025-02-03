@@ -30,11 +30,13 @@ function Header() {
   };
   
   return (
-    <div className='flex p-2 justify-between items-center'>
-       
-       <div>
-        <Image src='/images/logoimage.png' alt="Next.js" width={120} height={120}>
-        </Image>    
+
+    <div className='flex gap-3 p-2 justify-between items-center'>
+       <div className='flex items-center gap-8'>
+      
+        <Image
+         src='/images/logoimage.png' alt="Next.js" width={120} height={120}
+        />   
        </div>
         
       <div className='hidden md:flex gap-2 items-center'>
@@ -85,8 +87,9 @@ function Header() {
            </Button>
          
         </div>
-    </div>
+        </div>
   );
+ 
 }
 
 export default Header;
