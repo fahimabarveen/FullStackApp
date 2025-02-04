@@ -5,7 +5,6 @@ import Slider from "./_components/Slider";
 import CategoryList from "./_components/CategoryList";
 import ProductList from "./_components/ProductList";
 
-
 export default function Home() {
   return (
     <div>

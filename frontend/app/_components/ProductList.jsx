@@ -15,7 +15,7 @@ function ProductList()
       const getProductList =() =>{
         GlobalApi.getProductList().then((response) => {
        
-        console.log('Product List',response.data.data);
+        console.log('ProductList',response.data.data);
         setProductList(response.data.data);
         });
       };
@@ -23,18 +23,22 @@ function ProductList()
   return (
     <div >
       <h2>Product List</h2>
+      
       <div className='grid grid-cols-5 gap-4'>
+    
       {ProductList.map((Product,index) => (
-      <div key={index}
-        className='p-3 flex flex-col items-center gap-4 border border-gray-200 rounded-lg'>
-  
+      
+      <div key={index}>
+     
   <Image src={
           process.env.NEXT_PUBLIC_BACKEND_BASE_URL + Product.Image.url}
+
           alt = 'Trending Item'
           width={100}
           height={100}
-          className='h-[200px] w-[450px] hover:scale-125 transition-all ease-in-out duration-500 rounded-lg'/>
+          className='h-[200px] w-[450px] hover:scale-125 transition-all ease-in-out duration-500 rounded-lg'/> 
         
+
 <h2 className= 'text-blue-500'>{Product.Name}</h2>
 {
   Product.MRP && Product.SellingPrice !==0 ?(
