@@ -35,7 +35,7 @@ function Header() {
        <div className='flex items-center gap-8'>
       
         <Image
-         src='/images/logoimage.png' alt="Next.js" width={120} height={120}
+         src='/image/logoimage.png' alt="Next.js" width={120} height={120}
         />   
        </div>
         
@@ -54,7 +54,7 @@ function Header() {
                 {menuCategory.map((Category,index) => (
                   <DropdownMenuItem key={index}>
                     
-                    <Image src={ process.env.NEXT_PUBLIC_BACKEND_BASE_URL + Category.Icon.url}
+                    <Image src={ process.env.NEXT_PUBLIC_BACKEND_BASE_URL + Category.Icon.url }
                     alt ='logo'
                    width={30}
                    height={30}

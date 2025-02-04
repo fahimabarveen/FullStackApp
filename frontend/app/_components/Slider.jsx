@@ -38,7 +38,7 @@ function Slider() {
       </Button>
       </div>
       <div className='w-full'>
-        <img src='/images/banner2.jpg'
+        <img src='/image/banner3.jpg'
         className='w-full h-[300px] md:h-[300px] object-cover rounded-2xl row-span-1 m-2 align-middle'
         width={200}
         height={200}
@@ -68,7 +68,7 @@ function Slider() {
       </Button>
       </div>
       <div className='w-full'>
-        <img src='/images/banner1.jpg'
+        <img src='/image/banner2.jpg'
         className='w-full h-[300px] md:h-[300px] object-cover rounded-2xl row-span-1 m-2 align-middle'
         width={200}
         height={200}
@@ -98,7 +98,7 @@ function Slider() {
       </Button>
       </div>
       <div className='w-full'>
-        <img src='/images/banner3.jpg'
+        <img src='/image/banner1.jpg'
         className='w-full h-[300px] md:h-[300px] object-cover rounded-2xl row-span-1 m-2 align-middle'
         width={200}
         height={200}
